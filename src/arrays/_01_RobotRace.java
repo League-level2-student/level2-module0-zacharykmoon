@@ -1,6 +1,8 @@
 package arrays;
 
  
+import java.util.Random;
+
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -56,7 +58,7 @@ while(true) {
 		}
 	//6. use a while loop to repeat step 5 until a robot has reached the top of the screen.
 }	
-else if(rob[i].getY()<=1) {
+ if(rob[i].getY()<=1) {
 	
 	int b= i+1;
 		JOptionPane.showMessageDialog(null,"Robot "+b+" wins!");
@@ -72,5 +74,5 @@ else if(rob[i].getY()<=1) {
 }	//8. try different races with different amounts of robots.
 
 	//9. make the robots race around a circular track.
-}
+
 }
